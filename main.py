@@ -1,6 +1,12 @@
 from stats import get_num_words, count_chars, sort_dict
 import sys
 
+"""
+Bookbot by Tim from the boot.dev Back-end Developer Path
+2025-07-17
+TZA@10m GmbH
+"""
+
 def main():
     if len(sys.argv) != 2:
         print("Usage: python3 main.py <path_to_book>")
@@ -26,7 +32,6 @@ def main():
 
 def get_book_text(path_to_book):
     with open(path_to_book) as book:
-        # do something with path_to_book (the file) here
         file_contents = book.read()
     return file_contents
 

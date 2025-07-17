@@ -16,7 +16,6 @@ def sort_on(items):
 def sort_dict(dict):
     result = []
     for key in dict:
-        # print(key, dict[key])
         result.append({"char":key, "num":dict[key]})
     result.sort(reverse=True, key=sort_on)
     return result
