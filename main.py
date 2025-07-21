@@ -4,7 +4,7 @@ import sys
 """
 Bookbot by Tim from the boot.dev Back-end Developer Path
 2025-07-17
-TZA@10m GmbH
+TZA@10m
 """
 
 def main():
